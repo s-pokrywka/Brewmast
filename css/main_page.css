@@ -1,0 +1,130 @@
+body {
+    background: #F2D499 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: 9em;
+    body {
+    background: #F2D499 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    width: 9em;
+    height: 100%;
+    background: #EE594E 0% 0% no-repeat padding-box;
+    font: normal normal normal 30px/44px Microsoft YaHei UI;
+}
+.recipt{
+    background: #F2D499;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.nav_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #F2D499;
+    margin: 0;
+
+    
+
+
+}
+ul {
+    list-style-type: none;
+}
+li{
+    margin: 0.5em;
+}
+nav>i{
+    width: 2em;
+}
+nav>img {
+    width: 100%;
+    background: #F2D499 0% 0% no-repeat padding-box;
+}
+
+.logo_nav>img{
+    width: 10vw;
+    padding-left: 1.5em;
+}
+.nav_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.space_work{
+    height: 100%;
+    width: 100%;
+    background: #EE594E;
+
+}
+.space_main {
+    background: #F2D499;
+    height: 100%;
+    width: 100%;
+}
+.top_bar{
+    background: #EE594E; 
+    height: 10%;
+    width: 100%;
+    margin: 1em;
+    color:#F2D499;
+    
+}
+header>img{
+    width: 3em;
+    margin-left: 5em;
+}
+header>i{
+    margin-left: 10em;
+    width: 2em;
+    height: 130%;
+    color: black;
+}
+a{
+background: #F2D499 0% 0% no-repeat padding-box;
+border: 3px solid #F2B948;
+border-radius: 1em;
+text-align: left;
+font: normal normal normal 45px/57px Microsoft YaHei UI;
+letter-spacing: 0px;
+color: #EE594E;
+margin-right: 2em;
+
+}
+
+selector.space_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.space_main>form{
+    display: flex;
+    flex-direction: column;
+}
+.recipt>p{
+    background-color: #EE594E;
+    height: 20%;
+    width: 20%;
+
+    margin:10px
+}
+.vaild{
+    background-color: red;
+}

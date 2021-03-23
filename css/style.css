@@ -1,0 +1,265 @@
+body {
+    background: #F2D499 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    background: #F2D499 0% 0% no-repeat padding-box;
+    border: 3px solid #F2B948;
+    border-radius: 25px;
+    width: 8em;
+    text-align: center;
+    font: normal normal normal 40px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    margin: 5%;
+    }
+
+.h_title{
+text-align: left;
+font: normal normal normal 60px/70px Microsoft YaHei UI;
+letter-spacing: 0px;
+color: #EE594E;
+}
+
+.form_in{
+background: #EE594E 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 75px;
+opacity: 0.81;
+width: 100%;
+height: 70vh;
+display:  flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    display:  flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 43px;
+opacity: 0.8;
+width: 20em;
+height: 3em;
+margin: 5%;
+
+
+}
+.font_form{
+    text-align: left;
+font: normal normal normal 55px/75px Segoe UI;
+letter-spacing: 0px;
+color: #F2D499;
+opacity: 1;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-device-width: 420px) {
+    .form_in{
+        height: 40em;
+    }
+    .f_form{
+        flex-direction: column;
+    }
+    .logo {
+        flex-direction: column;
+        
+
+    }
+}
+nav {
+    width: 9em;
+    height: 100vh;
+    background: #EE594E 0% 0% no-repeat padding-box;
+    font: normabody {
+    background: #F2D499 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    background: #F2D499 0% 0% no-repeat padding-box;
+    border: 3px solid #F2B948;
+    border-radius: 25px;
+    width: 8em;
+    text-align: center;
+    font: normal normal normal 40px/60px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    margin: 5%;
+    }
+
+.h_title{
+text-align: left;
+font: normal normal normal 60px/70px Microsoft YaHei UI;
+letter-spacing: 0px;
+color: #EE594E;
+}
+
+.form_in{
+background: #EE594E 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 75px;
+opacity: 0.81;
+width: 100%;
+height: 70vh;
+display:  flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    display:  flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 43px;
+opacity: 0.8;
+width: 20em;
+height: 3em;
+margin: 5%;
+
+
+}
+.font_form{
+    text-align: left;
+font: normal normal normal 55px/75px Segoe UI;
+letter-spacing: 0px;
+color: #F2D499;
+opacity: 1;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-device-width: 420px) {
+    .form_in{
+        height: 40em;
+    }
+    .f_form{
+        flex-direction: column;
+    }
+    .logo {
+        flex-direction: column;
+        
+
+    }
+}
+nav {
+    width: 9em;
+    height: 100vh;
+    background: #EE594E 0% 0% no-repeat padding-box;
+    font: normal normal normal 30px/44px Microsoft YaHei UI;
+}
+
+.nav_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #F2D499;
+    margin: 0;
+    
+
+
+}
+ul {
+    list-style-type: none;
+}
+li{
+    margin: 0.5em;
+}
+nav>i{
+    width: 2em;
+}
+nav>img {
+    width: 100%;
+    background: #F2D499 0% 0% no-repeat padding-box;
+}
+
+.logo_nav>img{
+    width: 10vw;
+    padding-left: 1.5em;
+}
+.nav_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.no-valid {
+    border: 3px solid red;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em red;
+    outline: none;
+}
+
